@@ -3,7 +3,7 @@ import React from 'react';
 const HelloWorld = () => {
   return (
     <div className="hello-container">
-      <h1 className="hello-text">Demo ReactJS application developed by Anvesh</h1>
+      <h1 className="hello-text">Demo Reactjs application developed by Anvesh</h1>
     </div>
   );
 };
