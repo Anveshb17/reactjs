@@ -14,10 +14,10 @@ phases:
   post_build:
     commands:
       - echo Deploying to S3...
-      - aws s3 sync dist/ s3://sample-test-react/ --delete  # Sync the build directory with the S3 bucket
+      - aws s3 sync build/ s3://sample-test-react/ --delete  # Sync the build directory with the S3 bucket
 
 artifacts:
   files:
     - '**/*'  # Include all files in the build folder
   discard-paths: yes  # Optional, to keep the file structure flat in S3
-  base-directory: dist
+  base-directory: build
