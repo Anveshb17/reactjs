@@ -33,5 +33,6 @@ body {
 
 .navbar-logo {
   height: 100px;
-  width: 300px;
+  width: 1000px;
+  align-items: center;
 }
